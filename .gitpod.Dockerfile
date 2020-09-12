@@ -1,7 +1,8 @@
 FROM gitpod/workspace-full
 USER gitpod
-RUN sudo ls /etc && \ sudo apt-get update -q && \
-    sudo apt-get install -yq cron
+RUN sudo ls /etc 
+#&& \ sudo apt-get update -q && \
+ #   sudo apt-get install -yq cron
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
