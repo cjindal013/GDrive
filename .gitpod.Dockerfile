@@ -2,9 +2,7 @@ FROM gitpod/workspace-full
 
 USER gitpod
 RUN sudo apt-get update \
- && sudo apt-get install -y \
-    tool \
- && sudo rm -rf /var/lib/apt/lists/*
+ && sudo apt-get install -y
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
